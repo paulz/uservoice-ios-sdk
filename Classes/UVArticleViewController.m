@@ -15,6 +15,10 @@
 #import "UVDeflection.h"
 #import "UVUtils.h"
 
+@interface UVArticleViewController ()
+    @property (nonatomic, retain) UIWebView *webView;
+@end
+
 @implementation UVArticleViewController {
     UILabel *_footerLabel;
     UIButton *_yes;

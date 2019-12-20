@@ -12,7 +12,6 @@
 @interface UVArticleViewController : UVBaseViewController<UIActionSheetDelegate, UIWebViewDelegate>
 
 @property (nonatomic, retain) UVArticle *article;
-@property (nonatomic, retain) UIWebView *webView;
 @property (nonatomic, retain) NSString *helpfulPrompt;
 @property (nonatomic, retain) NSString *returnMessage;
 @property (nonatomic, retain) NSString *deflectingType;
