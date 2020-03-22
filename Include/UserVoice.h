@@ -56,7 +56,7 @@
 + (void)track:(NSString *)event properties:(NSDictionary *)properties;
 
 /**
- * @deprecated Use [UserVoice presentUserVoiceModalInterfaceForParentViewController:andConfig:] instead.
+ * Deprecated Use [UserVoice presentUserVoiceModalInterfaceForParentViewController:andConfig:] instead.
  */
 + (void)presentUserVoiceInterfaceForParentViewController:(UIViewController *)parentViewController andConfig:(UVConfig *)config;
 + (void)presentUserVoiceContactUsFormForParentViewController:(UIViewController *)parentViewController andConfig:(UVConfig *)config;
